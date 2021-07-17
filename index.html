@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog's Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <i style="color: whitesmoke;" class="fas fa-paw fa-2x"></i>
+                <h1 style="color: whitesmoke;">Dog's Care</h1>
+            </div>
+
+            <div class="nav-bar">
+                <ul type="none">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PAGES</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <div class="dropdown-content">
+                          <a href="#">BLOG POST</a>
+                          <a href="#">404</a>
+                          <a href="#">Landing</a>
+                        </div>
+                      </div>
+                    <li><a href="#">CONTACT</a></li>
+                    <input type="text" placeholder="Enter Keyword">
+                    <i id="search-btn" style="color: tomato;" class="fa fa-search"></i>
+                    <i id="moon-btn" style="color: aliceblue;" class="far fa-moon fa-2x"></i>
+                </ul>
+                <script>
+                    window.addEventListener("scroll",function(){
+                        var navdata=document.querySelector("#nav12")
+                        navdata.classList.toggle("sticky",window.scrollY>0);
+                        
+                    })
+                </script>
+            </div>
+        </div>
+
+        <div class="header-main">
+            <div class="header-content-center">
+                <h1 style="color: aliceblue;">Providing Special Care for <span id="bold-text">Your Pets!</span></h1><br>
+                <p style="color: grey;">We offer special services for special pets</p><br><br>
+            </div>
+
+            <div class="header-button">
+                <button type="button" class="btn-main-1">View Our Services</button>
+                <button type="button" class="btn-main-2">Hire-Us</button>
+            </div>
+        </div>
+    </header>   
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@ SECOND PAGE @@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+    <section id="second-page">
+
+        <div class="img-and-heading-container">
+            <div class="second-page-image">
+                <img src="image/second.jpg" alt="">
+            </div>
+    
+            <div class="second-page-heading1">
+                <div class="about-us">
+                    <h1>About Us</h1>
+                    <p>Orci urna. In et augue ornare, tempor massa in, luctus sapien. Proin a 
+                       diam et dui fermentum dolor molestie vel id neque. Donec sed tempus 
+                       enim, a congue risus. Pellen tesqu.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="second-page-heading2">
+            <div class="second-mission">
+                <i style="color: orangered;" class="fas fa-paw fa-2x"></i>
+                <h3>Our Mission</h3>
+                <p>In a diam et dui elit, orci urna vel 
+                    id neque. Donec sed tempus 
+                    enims.</p>
+            </div>
+
+            <div class="second-vision">
+                <i style="color: orangered;" class="far fa-hand-peace fa-2x"></i>
+                <h3>Our Vision</h3>
+                <p>In a diam et dui elit, orci urna vel 
+                    id neque. Donec sed tempus 
+                    enims.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@ THIRD-PAGE @@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <main>
+        <div id="third-page">
+
+            <div class="third-heading">
+                <h1>What We Do</h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, eaque ipsa quae ab illo inventore.</p>
+            </div>
+
+            <div class="third-boxes">
+                <div class="third-box-1">
+                    <div class="box1-img">
+                        <img src="image/box1.jpg" alt="">
+                    </div>
+                    <div class="box1-head">
+                        <h1>Donec sed teus enime</h1>
+                    </div>
+                    <div class="box1-text">
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="box1-readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="third-box-2">
+                    <div class="box2-img">
+                        <img src="image/box2.jpg" alt="">
+                    </div>
+                    <div class="box2-head">
+                        <h1>Donec sed teus enime</h1>
+                    </div>
+                    <div class="box2-text">
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="box2-readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="third-box-3">
+                    <div class="box3-img">
+                        <img src="image/box3.jpg" alt="">
+                    </div>
+                    <div class="box3-head">
+                        <h1>Donec sed teus enime</h1>
+                    </div>
+                    <div class="box3-text">
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="box3-readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@ Fourth-PAGE @@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- 
+    <main>
+        <div id="fourth-page">
+            <div class="fourth-customers">
+                <div class="fourth-heading">
+                    <h1>Happy Customers</h1>
+                </div>
+                <div class="fourth-para1">
+                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat.</p>
+                </div>
+                <div class="fourth-para2">
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat.
+                </div>
+                <div class="fourth-logo1">
+                    <div class="lg1">
+                        <i class="fas fa-user-plus fa-2x"></i>
+                    </div>
+                    <div class="txt1">
+                        <h1>100 <span id="k">K</span> <span id="plus">+</span></h1>
+                    </div>
+                    <div class="cus">
+                        <p>Customers</p>
+                    </div>
+                </div>
+                <div class="fourth-logo2">
+                    <div class="lg2">
+                        <i class="fas fa-thumbs-up fa-2x"></i>
+                    </div>
+                    <div class="txt1">
+                        <h1>100 <span id="k">K</span> <span id="plus">+</span></h1>
+                    </div>
+                    <div class="cus">
+                        <p>Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fourth-right-side">
+                <div class="person-1">
+                    <div class="person-1-img">
+                        <img style="width: 10%;" src="image/fourth-1.jpg" alt="">
+                    </div>
+                    <div class="person-1-text">
+                        <blockquote class="quote">
+                            <q>
+                                ::before
+                                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                ::after
+                            </q>
+                        </blockquote>
+                    </div>
+                    <div class="person-1-name">
+                        <h3>Mario Spe</h3>
+                    </div>
+                </div>
+                <div class="person-2">
+                    <div class="person-2-img">
+                        <img style="width: 10%;" src="image/fourth-2.jpg" alt="">
+                    </div>
+                    <div class="person-2-text">
+                        <blockquote class="quote">
+                            <q>
+                                ::before
+                                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                ::after
+                            </q>
+                        </blockquote>
+                    </div>
+                    <div class="person-2-name">
+                        <h3>Mario Spe</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> -->
+
+    <section class="background4">
+        <div class="row4">
+            <div class="row4inner">
+                <div class="customers">
+                    <h1> Happy Customers</h1>
+                    <p class="p1 top">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat</p>
+                    <p class="p1 bottom">Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat. Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                </div>
+                <div class="icons">
+                    <div class=" left left1">
+                       <div class="user"> <span class="fa fa-user-plus fa-2x"></span></div>
+                        <h4>100K+</h4>
+                    </div>
+                    <div class=" left right1">
+                      <div class="thumps">  <span class="fa fa-thumbs-up fa-2x"></span></div>
+                        <h4>100%</h4>
+                    </div>
+                   
+                </div>
+                
+            </div>
+            <div class="row4inner">
+                <div class="leftiamge">
+                    <div class="image">
+                        <img src="image/testi1.jpg" alt="">
+                    </div>
+                    
+                    <div class="rightquotes">
+                        <h1>"</h1>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. Excepteur sint occae
+                            cat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            <h5>Mario Spe</h5>
+                    </div>
+                    
+                </div>
+                <div class="leftiamge">
+                    <div class="image">
+                        <img src="image/testi2.jpg" alt="">
+                    </div>
+                    
+                    <div class="rightquotes">
+                        <h1>"</h1>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. Excepteur sint occae
+                            cat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            <h5>Mario Spe</h5>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+             
+               
+        </div>
+    </section>
+
+    <!-- ############################## dog features section ################################################################### -->  
+
+
+    <div class="dog-feature-section">
+        <div class="dog-image">
+            <img src="image/dog1.png" alt="dog image">
+        </div>
+        <div class="dog-features">
+            <div class="dog-featurers-details">
+                <i class="fas fa-thumbs-up fa-2x" aria-hidden="true"></i>
+                <h2>Dog Sitting</h2>
+                <p>Lorem ante ipsum primis in faucibus orci luctus <br> eted ultrices posuere.</p>
+            </div>
+            <div class="dog-featurers-details">
+                <i class="fas fa-paw fa-2x" aria-hidden="true"></i>
+                <h2>Dog Walking</h2>
+                <p>Lorem ante ipsum primis in faucibus orci luctus <br> eted ultrices posuere.</p>
+            </div>
+            <div class="dog-featurers-details">
+                <i class="fas fa-bullhorn fa-2x"></i>
+                <h2>Dog Dentistry</h2>
+                <p>Lorem ante ipsum primis in faucibus orci luctus <br> eted ultrices posuere.</p>
+            </div>
+            <div class="dog-featurers-details">
+                    <i class="fas fa-paw fa-2x" aria-hidden="true"></i>
+                    <h2>Dog Grooming</h2>
+                    <p>Lorem ante ipsum primis in faucibus orci luctus <br> eted ultrices posuere.</p>
+            </div>
+        </div>
+        </div>
+    
+        
+<!-- ############################## pet lovers section ################################################################### -->
+
+
+<div class="pet-lovers-section">
+    <div class="pet-description">
+        <div class="pet-details">
+            <p>PET LOVERS</p>
+            <h4>Our Team Is Filled With Highly Dedicated Pet Lovers</h4>
+            <a class="butn-style" href="#">read More</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- ############################## latest news section ################################################################### -->
+
+
+<div class="section6">
+    <div class="top-section">
+        <h1>Latest News</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, eaque ipsa quae ab illo inventore.</p>
+ 
+    </div>
+     
+    
+    <div class="row-section">
+ 
+        <div class="content13">
+            <div class="innerimage1 image12" >
+            </div> 
+           <p>May 5, 2021</p>
+           <h3>Hello world!</h3>
+           <p class="linkp"><a href="">READ MORE></a></p>
+ 
+        </div>
+        <div class="content12">
+            <div class="innerimage1 image13 "></div>
+            <p class="date">May 5, 2021</p>
+            <p><a href="">How to keep your dog cool this <br> summer</p>
+            <p class="linkp"><a href="">READ MORE></a></p>
+        </a>
+        
+        </div>
+ 
+        <div class="content12">
+            <div class="innerimage1 image14 "></div>
+            <p class="date">May 5, 2021</p>
+            <p><a href=""> Solution for grooming behavior problems</a></p>
+            <p class="linkp"><a href="">READ MORE></a></p>
+                   
+        </div>
+    </div>
+</div>
+</main>
+
+
+<!-- ########################### footer ############################## -->
+
+<footer>
+<div class="footer-section">
+    <div class="container">
+        <div class="footer-container-top">
+            <div class="footer-logo">
+                <p class="f-logo"><i class="fas fa-paw"></i> Dogs Care</p>
+                <p class="f-p">Duis imperdiet sapien tortor, vitae congue <br> diam auctor vitae. Aliquam eget turpis <br> ornare, euismod ligul aeget, enenatis dui.</p>
+            </div>
+            <div class="footer-category">
+                <div class="cateogory-separation">
+                    <div class="cateogory-separation-left">
+                        <h3>Categories</h3>
+                        <p> <strong>&lt;</strong> Dog</p>
+                        <p> <strong>&lt;</strong> Dog Care</p>
+                        <p> <strong>&lt;</strong> Pets</p>
+                        <p> <strong>&lt;</strong> Uncategorized</p>
+                    </div>
+                    <div class="cateogory-separation-right">
+                        <h3 class="archieve">Invisible</h3>
+                        <p> <strong>&lt;</strong> May 2021</p>
+                        <p> <strong>&lt;</strong> April 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <h3>Suscribe Here Now</h3>
+                <form action="" class="design">
+                    <input type="email" placeholder="Enter Address" required>
+                    <button><span class="fas fa-paper-plane"></span></button>
+                    
+                </form>
+                <p class="f-p">Subscribe to our mailing list and get updates to <br> your email inbox.</p>
+            </div>
+        </div>
+        <hr>    
+        <div class="footer-container-down">
+            <div class="footer-container-down-left">
+                <p>© 2021 Dogs Care. All Rights Reserved | WordPress Theme by  <a href="https://w3layouts.com">W3Layouts.</a>
+
+                </p>
+            </div>
+            <div class="footer-container-down-right">
+                <ul class="social-media">
+                    <li>
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a> 
+                    </li>
+                    <li>
+                        <a href="https://in.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a> 
+                    </li>
+                    <li>
+                        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a> 
+                    </li>
+                    <li>
+                        <a href="https://github.com"><span><i class="fab fa-github-square fa-2x"></i></span></a> 
+                    </li>
+                    <li>
+                        <a href="https://instagram.com"><i class="fab fa-instagram-square fa-2x"></i></a> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</footer>
+    
+</body>
+</html>
